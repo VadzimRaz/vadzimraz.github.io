@@ -1,26 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*подключение внешнего шрифта*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); /*подключение внешнего шрифта*/
+
 body {
-    background-color: #f1f1f1;
-    font-size: 16px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-}
-.avatar {
-   width: 300px; 
-   border-radius: 28px;
-   box-shadow: 4px 4px 14px rgba(0, 0, 0, 25); /*создает тень вокруг картинки*/
-}
-.info p {
-    color: #86898f;
-    margin: 0;
-    font-style: italic;
-    text-decoration: none;
-}
-.container {
-    max-width: 750px;
-    margin: auto;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
 }
 
-.social {
-    background: green;
+.bg-yellow {
+  background: #fff9dc;
 }
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+ 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 300px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25); /*создает тень вокруг картинки*/
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+/*  стилистика 4ех блоков по 25% по ширине   
+.box-model > div {       ------  знак > обращение к дочерним элементам
+    float: left;            
+    background: #000;
+    height: 200px;
+    width: 25%;
+    border: 4px solid red;
+    box-sizing: border-box; 
+}  */
+/*.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  text-decoration: none;
+}  */
