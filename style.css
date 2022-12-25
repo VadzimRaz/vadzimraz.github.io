@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); /*подключение внешнего шрифта*/
 
 body {
-  background-color: #f1f1f1;
+  background-color: #fdfcfc;
   font-size: 16px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
@@ -18,7 +18,7 @@ body {
 .bg-red {
   background: #ffe5e5;
 }
- 
+
 a {
   color: black;
   text-decoration: none;
@@ -37,32 +37,57 @@ a:visited {
 }
 
 .info {
-  margin-bottom: 20px;
+  background-color: #fdfcfc;
+  margin: 5px 5px;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.info-text {
+  margin-left: 20px;
 }
 
 .avatar {
-  width: 300px;
-  border-radius: 28px;
-  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25); /*создает тень вокруг картинки*/
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+  /*создает тень вокруг картинки*/
 }
 
 .container {
   max-width: 750px;
   margin: auto;
+  padding-top: 20px;
 }
 
 .card {
   border-radius: 15px;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-}
-
-.card h2 {
+  padding: 5px 5px;
   margin-bottom: 10px;
 }
 
 .list {
   padding: 0 20px;
+}
+
+.list li {
+  color: #a4a5a8;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #62718f;
+}
+.table tr:nth-child(odd) {
+  background: #a4a5a8;
 }
 /*  стилистика 4ех блоков по 25% по ширине   
 .box-model > div {       ------  знак > обращение к дочерним элементам
